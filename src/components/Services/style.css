@@ -1,0 +1,102 @@
+.services {
+  color: #e2e2e2;
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+.services .row {
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+}
+.services .col-6 {
+  width: 50%;
+}
+.services__subtitle {
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+.services__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 71.5px;
+  letter-spacing: 0.003em;
+  margin-top: 32px;
+}
+.services__description {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  margin: 18px 0 36px;
+}
+.services__link {
+  display: flex;
+  align-items: center;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-left: auto;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  color: #e2e2e2;
+  text-decoration: none;
+  gap: 15px;
+}
+.services .row.col-6 {
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.services .row.col-6 .col-6 {
+  width: 46%;
+}
+.services__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  padding: 35px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.services__item:hover {
+  box-shadow: 4px 4px 30px 0px rgba(135, 110, 126, 0.1176470588);
+  background-color: #0b0f15;
+}
+.services__item-title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.services__icon {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.services__icon.white {
+  background-color: #fff;
+}
+.services__icon.red {
+  background-color: #ff4646;
+}
+.services__icon.green {
+  background-color: #8eea77;
+}
+.services__icon.yellow {
+  background-color: #ffb21a;
+}/*# sourceMappingURL=style.css.map */
