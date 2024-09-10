@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs";
+import Collaboration from "./components/Collaboration";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
@@ -15,6 +16,7 @@ function App() {
         <Services />
         <Portfolio />
         <Testimonial />
+        <Collaboration />
       </main>
     </div>
   );

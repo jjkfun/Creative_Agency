@@ -27,7 +27,7 @@ const AboutUs = () => {
                 your content look interesting and make people look for your
                 business
               </p>
-              <Button>About Us</Button>
+              <Button className="primary">About Us</Button>
               <Button className="outline">Our Story</Button>
             </div>
           </div>

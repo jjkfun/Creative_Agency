@@ -17,7 +17,7 @@ const Hero = () => {
             when you need us for improve your business, then come with us to
             help your business have reach it, you just sit and feel that goal
           </div>
-          <Button>Start Project</Button>
+          <Button className="primary">Start Project</Button>
         </div>
         <div className="hero__poster">
           <img src={Poster} alt="Poster" />
@@ -37,13 +37,10 @@ const Hero = () => {
               </div>
             </div>
 
-
             <p className="hero-review__description">
               “ This team is really the best in its field,I don't regret working
               with them, and will come back again thanks “
             </p>
-
-            
           </div>
         </div>
       </div>
